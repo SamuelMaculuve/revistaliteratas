@@ -1,0 +1,19 @@
+﻿/*
+Theme Name: AMEA  Template
+Theme URI: http://amea.org.mz/
+Author: Samuel Maculuve
+Author URI: http://amea.org.mz/
+Description:AMEA ORIGINAL Template dá vida ao seu site com vídeos em cabeçalho e imagens em destaque imersivas.
+Com foco em sites de negócios, apresenta várias seções na primeira página, além de widgets, menus de navegação e
+ sociais, um logotipo e muito mais. Personalize sua grade assimétrica com um esquema de cores personalizado e apresente seu conteúdo multimídia com formatos de postagem. Nosso tema padrão para 2017 funciona muito bem em vários idiomas, para qualquer habilidade e em qualquer dispositivo.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags:
+Text Domain: AMEA
+*/
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url("assets/src/node_modules/font-awesome/fonts/fontAwesome.otf");
+}

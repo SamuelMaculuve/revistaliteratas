@@ -1,0 +1,22 @@
+2020-05-12T10:01:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\templates\content-product.php:2
+Stack trace:
+#0 C:\wamp\www\revistaLiteratas\wp-includes\template.php(725): require()
+#1 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('C:\\wamp\\www\\rev...', false)
+#2 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\templates\single-product\related.php(43): wc_get_template_part('content', 'product')
+#3 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include('C:\\wamp\\www\\rev...')
+#4 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1930): wc_get_template('single-product/...', Array)
+#5 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1893): woocommerce_related_products(Array)
+#6 C:\wamp\www\revistaLiteratas\wp-includes\class-wp-hook.php(287): wo, em C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\templates\content-product.php, na linha 2
+
+2020-05-12T10:01:26+00:00 CRITICAL Uncaught Error: Call to undefined function get_field() in C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\templates\content-product.php:2
+Stack trace:
+#0 C:\wamp\www\revistaLiteratas\wp-includes\template.php(725): require()
+#1 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\includes\wc-core-functions.php(197): load_template('C:\\wamp\\www\\rev...', false)
+#2 C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\includes\wc-template-functions.php(958): wc_get_template_part('content', 'product')
+#3 C:\wamp\www\revistaLiteratas\wp-content\themes\revista\woocommerce.php(19): woocommerce_content()
+#4 C:\wamp\www\revistaLiteratas\wp-includes\template-loader.php(106): include('C:\\wamp\\www\\rev...')
+#5 C:\wamp\www\revistaLiteratas\wp-blog-header.php(19): require_once('C:\\wamp\\www\\rev...')
+#6 C:\wamp\www\revistaLiteratas\index.php(17): require('C:\\wamp\\www\\rev...')
+#7 {main}
+  thrown, em C:\wamp\www\revistaLiteratas\wp-content\plugins\woocommerce\templates\content-product.php, na linha 2
+
